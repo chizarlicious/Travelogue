@@ -1,3 +1,32 @@
+# Charles' Notes
+
+Per Alex:
+
+```
+sudo apt-get install ruby2.0 ruby2.0-dev
+gem2.0 install jekyll --user-install
+```
+
+I also needed to do -- possibly due to an out of date `config.yaml`:
+
+```
+PATH=~/.gem/ruby/2.0.0:~/.gem/ruby/2.0.0/bin:$PATH
+gem2.0 install jekyll-paginate --user-install
+gem2.0 install jekyll-gist --user-install
+gem2.0 install jekyll-feed --user-install
+gem2.0 install jekyll-sitemap --user-install
+```
+
+After that, `jekyll serve` fires up the server which can be viewed locally at `http://localhost:4000`. 
+
+Attempting the rsms gitblog... so far unsuccessful. 
+
+```
+sudo apt-get install php5-common libapache2-mod-php5 php5-cli
+apache2 stop
+apache2 start
+```
+
 Travelogue
 ==========
 [![Live Demo](http://img.shields.io/badge/Travelogue-DEMO-7D8866.svg?style=flat)](https://salgnt.github.io/Travelogue)&nbsp;
