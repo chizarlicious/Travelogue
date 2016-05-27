@@ -40,3 +40,6 @@ defaults:
 gems:
     - jekyll-feed
     - jekyll-sitemap
+    - jekyll-paginate
+    - jekyll-gist
+
