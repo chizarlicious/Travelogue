@@ -1,9 +1,9 @@
 # Site settings
-name: Travelogue
-description: 'A minimal, single-column Jekyll theme that provides an immersive read experience for your readers'
+name: Charles Dot Uno
+description: ''
 
 baseurl: '' # the subpath of your site, e.g. /blog
-url: 'http://yourdomain.com' # the base hostname & protocol for your site
+url: 'http://charles.uno' # the base hostname & protocol for your site
 
 # Build settings
 markdown:            kramdown
@@ -15,9 +15,9 @@ paginate:            8
 paginate_path:       page/:num/
 
 author:
-    name: 'Salvatore Gentile'
+    name: 'Charles'
     email: ''
-    uri: 'https://github.com/SalGnt'
+    uri: 'http://charles.uno'
 
 sass:
     sass_dir: _sass

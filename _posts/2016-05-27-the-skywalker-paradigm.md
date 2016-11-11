@@ -2,7 +2,7 @@
 layout: post
 title: "The (Abridged) Skywalker Paradigm"
 date: 2016-05-27
-thumb: "/assets/images/placeholder.jpg"
+thumb: "/assets/images/tasp/thumb.png"
 ---
 
 Some time ago, I stumbled upon The [Skywalker Paradigm](http://ammonra.org/skywalkerparadigm/), a sort of Star Wars conspiracy theory. 
@@ -74,8 +74,8 @@ The peace will not last.
 Not content to serve, Vader and his daughter, Leia, have enlisted a terrorist organization called the Rebellion; Leia leads them under a false name to disguise her connection to Vader. 
 Their aim is to depose Palpatine and install the Skywalker line as monarchs. 
 
-image: locked_door.jpg
-caption: Source: [The Skywalker Paradigm](http://ammonra.org/skywalkerparadigm/a_leiaknew_anh_comp.html)
+![](/assets/images/tasp/locked_door.jpg)
+*Source: The Skywalker Paradigm*
 
 Grand Moff Tarkin is a high-ranking Imperial officer with his own ideas about the future of the Empire. 
 He has used the Rebellion as an excuse to create the Death Star, a space station with titanic destructive potential. 
@@ -120,8 +120,8 @@ In fact, the Force includes neither such ability.
 Supposed telekinesis is driven by technology, not the Force. 
 From landspeeders to surveillance droids, the levitation of metal objects is shown to be ubiquitous and reliable in the Star Wars universe. 
 
-image: telekinesis.jpg
-caption: Source: [The Skywalker Paradigm](http://ammonra.org/skywalkerparadigm/a_leiaknew_anh_comp.html)
+![](/assets/images/tasp/telekinesis.jpg)
+*Source: The Skywalker Paradigm*
 
 Supposed Jedi premonitions are actually delusions, hallucinations, and lies. 
 Luke also believes that Kenobi feels "a great disturbance in the Force"; in fact, his contact alerted him of Tarkin's actions. 
@@ -129,8 +129,8 @@ Why else would Luke, incredibly gifted in the Force, have felt nothing at all?
 
 Supposed Force-ghosts are explained by holograms, also a common piece of technology. 
 
-image: ghosts.jpg
-caption: Source: [The Skywalker Paradigm](http://ammonra.org/skywalkerparadigm/a_leiaknew_anh_comp.html)
+![](/assets/images/tasp/ghosts.jpg)
+*Source: The Skywalker Paradigm*
 
 The supposed Jedi ability to predict and block blaster fire with a lightsaber is based in truth, but exaggerated. 
 Lightsabers do absorb blaster fire, but they are limited by the reaction time of their wielders. 
@@ -163,8 +163,8 @@ During the Battle of Hoth, Luke's bloodlust and sense of invincibility make him 
 When his snowspeeder crashes, he doesn't pause to check if his unconscious friend Dak is alive. 
 Instead, he salvages the grappling cable and uses it to single-handedly destroy an Imperial walker. 
 
-image: dak.jpg
-caption: Source: [The Skywalker Paradigm Strikes Back](http://ammonra.org/skywalkerparadigm/a_leiaknew_esb_comp.html)
+![](/assets/images/tasp/dak.jpg)
+*Source: [The Skywalker Paradigm Strikes Back](http://ammonra.org/skywalkerparadigm/a_leiaknew_esb_comp.html)*
 
 Careful not to further agitate Luke's violent obsession with Vader, Leia has no choice but to flee. 
 Perhaps she makes brief contact with Vader on Hoth, or perhaps her flight tells him all that he needs to know about his son's mania. 
@@ -186,11 +186,11 @@ He drills him with anti-Vader propaganda.
 He uses levitation technology to convince Luke that the Force includes near-limitless telekinetic abilities. 
 He finally convinces Luke's drug-addled mind that if he doesn't assassinate Vader -- *immediately* -- his friends will be tortured and killed. 
 
-image: rootleaf.jpg
-caption: Source: [The Skywalker Paradigm Strikes Back](http://ammonra.org/skywalkerparadigm/a_leiaknew_esb_comp.html)
+![](/assets/images/tasp/rootleaf.jpg)
+*Source: [The Skywalker Paradigm Strikes Back](http://ammonra.org/skywalkerparadigm/a_leiaknew_esb_comp.html)*
 
-image: training.jpg
-caption: Source: [The Skywalker Paradigm Strikes Back](http://ammonra.org/skywalkerparadigm/a_leiaknew_esb_comp.html)
+![](/assets/images/tasp/training.jpg)
+*Source: [The Skywalker Paradigm Strikes Back](http://ammonra.org/skywalkerparadigm/a_leiaknew_esb_comp.html)*
 
 Luke arrives on Bespin just minutes after Han is encased in carbonite (which in turn happened just hours after Leia and Han's arrival). 
 While Luke believes himself to have been fully trained as a Jedi, in fact he spent no more than a day on Dagobah! 
@@ -204,8 +204,8 @@ He tries to knock him out with heavy levitated objects.
 Only after all of this does he cut off Luke's hand. 
 Vader knows well enough that the hand can be replaced; he hopes that Luke's pain and shock will snap him out of his hypnosis, and again tries to reason with his son. 
 
-image: vader_goal.jpg
-caption: Source: [The Skywalker Paradigm Strikes Back](http://ammonra.org/skywalkerparadigm/a_leiaknew_esb_comp.html)
+![](/assets/images/tasp/vader_goal.jpg)
+*Source: Source: [The Skywalker Paradigm Strikes Back](http://ammonra.org/skywalkerparadigm/a_leiaknew_esb_comp.html)*
 
 Luke, hysterical, flees with Leia. 
 Vader's forces offer only token resistance. 
@@ -221,8 +221,8 @@ The old Luke was a talented fighter in and out of the cockpit, but impulsive and
 Vader sculpts him into a new Luke, deceitful and patient. 
 The attack on Jabba's palace is a test of this new Luke's abilities. 
 
-image: luke_in_black.jpg
-caption: Source: [Return of the Skywalker Paradigm](http://ammonra.org/skywalkerparadigm/a_leiaknew_rotj_comp.html)
+![](/assets/images/tasp/luke_in_black.jpg)
+*Source: [Return of the Skywalker Paradigm](http://ammonra.org/skywalkerparadigm/a_leiaknew_rotj_comp.html)*
 
 For both Leia and Vader, Jabba's defeat is cathartic. 
 Leia sees Han unfrozen from carbonite; pawn or not, she has feelings for the handsome scoundrel. 
@@ -260,8 +260,8 @@ They then go directly to Palpatine's throne room.
 Note that it's crucial to their plan that Palpatine be assassinated in person, to ensure that he does not flee the Death Star before its destruction. 
 It's also crucial that they do it quickly, since Leia can only stall for so long before dropping the Death Star's shield. 
 
-image: capture_luke.jpg
-caption: Source: [Return of the Skywalker Paradigm](http://ammonra.org/skywalkerparadigm/a_leiaknew_rotj_comp.html)
+![](/assets/images/tasp/capture_luke.jpg)
+*Source: Source: [Return of the Skywalker Paradigm](http://ammonra.org/skywalkerparadigm/a_leiaknew_rotj_comp.html)*
 
 Palpatine has survived many assassination attempts in his decades as Emperor. 
 His loose robes hide an assortment of weapons, defenses, and traps. 
@@ -275,8 +275,8 @@ They yell and throw furniture, but he reveals nothing.
 Short on options (and on time), Luke dramatically severs Vader's hands. 
 He then taunts Palpatine directly, provoking him to act. 
 
-image: lightning.jpg
-caption: Source: [Return of the Skywalker Paradigm](http://ammonra.org/skywalkerparadigm/a_leiaknew_rotj_comp.html)
+![](/assets/images/tasp/lightning.jpg)
+*Source: Source: [Return of the Skywalker Paradigm](http://ammonra.org/skywalkerparadigm/a_leiaknew_rotj_comp.html)*
 
 Palpatine deploys his taser, incapacitating Luke. 
 Vader waits until Palpatine is completely engrossed. 
