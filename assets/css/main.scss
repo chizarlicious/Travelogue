@@ -3,10 +3,6 @@
 ---
 @charset "utf-8";
 
-
-img + em { text-align:center; font-color:red; background-color:green; }
-
-
 /*
    Variables
    ========================================================================== */
@@ -88,6 +84,30 @@ $transition-nav:   all 500ms linear;
     "loader",
     "syntax-highlighting"
 ;
+
+
+/*
+   Sandbox
+   ========================================================================== */
+
+p { text-align: justify; }
+
+img + em { text-align:center; font-color:red; background-color:green; }
+
+table {background:pink; border:0; border-collapse:separate; border-spacing: 0; margin-right: auto; margin-left: auto; }
+
+thead tr th{border-bottom: 1px solid $dark-color; background: orange; }
+
+td { padding: 5px 15px; }
+
+/*
+tbody tr#first td{border-top: 3px solid #4d4d4d; border-collapse:separate;  border-spacing:5px 5px;}
+*/
+
+/*
+thead { background: red; border-bottom: 1px solid green; }
+*/
+
 
 
 
