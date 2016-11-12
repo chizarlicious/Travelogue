@@ -34,8 +34,7 @@ Donald Trump, on the other hand, sidestepped this issue by refusing to articulat
 
 If we're surprised that the charismatic candidate beat the policy-focused candidate, we shouldn't be -- it happens every time. Obama's campaigns were built on his powerful oratory skills. GWB ran as the candidate you'd like to have a beer with. In the past four decades, 1988 is the only presidential election in which the winner (GHWB) could reasonably be described as "smart but boring."
 
-In the modern era, it seems that Democrats are actually more reliant than Republicans on the charisma of their presidential candidates. JFK, Carter, Bill Clinton, and Obama were famously charismatic, and inspired high voter turnout. The same cannot be said of Mondale, Dukakis, Gore, and Kerry. Republican voters, on the other hand, seem almost ambivalent to their nominee: the Republican candidate has earned about the same number of votes in each of the past four elections: 62M in 2004, 60M in 2008, 61M in 2012, and 60M in 2016.
-
+In the modern era, it seems that Democrats are actually more reliant than Republicans on the charisma of their presidential candidates. JFK, Carter, Bill Clinton, and Obama were famously charismatic, and inspired high voter turnout. The same cannot be said of Mondale, Dukakis, Gore, and Kerry. Republican voters, on the other hand, seem almost ambivalent to their nominee: the Republican candidate has earned about the same number of votes in each of the past four elections.
 
 | Year | Democrats           | Republicans       | 
 |:----:|:-------------------:|:-----------------:|
@@ -44,7 +43,34 @@ In the modern era, it seems that Democrats are actually more reliant than Republ
 | 2008 | 70M (**Obama**)     | 60M (McCain)      |
 | 2004 | 60M (Kerry)         | 62M (**Bush Jr**) |
 
-Table: Democratic and Republican popular vote totals for recent elections, per Wikipedia. In 2000 and 2016, the electoral college split from the popular vote. Also note that the two-party vote totals are low in 1992 and 1996 due to a prominent third-party candidate, Ross Perot. 
+*Democratic and Republican popular vote totals for recent elections, per Wikipedia. The popular vote mismatch in 2016 is due to the [Electoral College](https://en.wikipedia.org/wiki/Electoral_College_(United_States)).*
+
+lorem ipsum
+
+![Jedi Due Process](/assets/images/tasp/jedi_due_process.jpg)
+*[The Skywalker Paradigm](http://ammonra.org/skywalkerparadigm/a_leiaknew_anh_comp.html)*
+
+lorem ipsum
+
+> The Skywalker Paradigm is a way of viewing the Star Wars movies that adds enormous clarity to every facet of the story. 
+> I'm not trying to tell you about the plot holes in Star Wars - I'm telling you there are NO plot holes in Star Wars. 
+> ...
+> The movies stand by themselves, like a History Channel documentary about World War II, pieced together from found footage and records. 
+> The story is there already -- you've just always misunderstood it. 
+> It's okay - everybody else did too. 
+
+*[The Skywalker Paradigm](http://ammonra.org/skywalkerparadigm/)*
+
+
+lorem ipsum
+
+
+
+
+
+
+
+
 
 <!--
 | 2000 | 51M (Gore)          | 50M (**Bush Jr**) |
@@ -69,7 +95,7 @@ Table: Democratic and Republican popular vote totals for recent elections, per W
 | Footer row      |            |                 |                |
 |-----------------+------------+-----------------+----------------|
 
-Table: Example kramdown table
+*Example kramdown table*
 
 
 ---

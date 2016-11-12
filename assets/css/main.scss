@@ -92,13 +92,52 @@ $transition-nav:   all 500ms linear;
 
 p { text-align: justify; }
 
-img + em { text-align:center; font-color:red; background-color:green; }
+blockquote { background: $light-color; margin: 0; padding: 5px 20px; }
 
-table {background:pink; border:0; border-collapse:separate; border-spacing: 0; margin-right: auto; margin-left: auto; }
+blockquote + p > em { text-align: right; }
 
-thead tr th{border-bottom: 1px solid $dark-color; background: orange; }
+img { padding: 0; border: 0; background-color: $light-color; }
+
+table { width: 100%; border: 0; border-spacing: 0; background-color: $light-color; padding: 0px; }
+
+thead tr th { border-bottom: 1px solid $text-color; }
+
+th, td { padding: 5px 20px; }
+
+img + em, table + p > em, blockquote + p > em { border-top: 1px solid $text-color; font-size: $small-font-size; background-color: $light-color; padding: 5px 20px; line-height: 1.5; display: block; font-style: normal; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+table + p, img + em { font-size: $small-font-size; background-color: $light-color; }
+
+table { width: 100%; border:0; border-collapse: separate; border-spacing: 0; margin-right: auto; margin-left: auto; }
+
+table { background-color: $light-color; }
+
+blockquote {
+  margin-left: 25px;
+  padding-left: 15px;
+  border-left: 3px solid $dark-color;
+}
+
 
 td { padding: 5px 15px; }
+*/
+
+
 
 /*
 tbody tr#first td{border-top: 3px solid #4d4d4d; border-collapse:separate;  border-spacing:5px 5px;}

@@ -31,7 +31,7 @@ This rule was enforced by the [Jedi knights](http://starwars.wikia.com/wiki/Jedi
 The Jedi wield lightsabers, powerful weapons which can cut through anything and act as perfect foils to the blasters employed by the rest of the galaxy. 
 
 ![](/assets/images/tasp/jedi_due_process.jpg)
-*Source: The Skywalker Paradigm*
+*Source: [The Skywalker Paradigm](http://ammonra.org/skywalkerparadigm/a_leiaknew_anh_comp.html)*
 
 Membership in the Jedi order was open only to those with a biological disposition towards use of the Force -- a high midi-chlorian count. 
 In fact, any children found to have a suitably high midi-chlorian count were conscripted into the Jedi religion. 
@@ -75,7 +75,7 @@ Not content to serve, Vader and his daughter, Leia, have enlisted a terrorist or
 Their aim is to depose Palpatine and install the Skywalker line as monarchs. 
 
 ![](/assets/images/tasp/locked_door.jpg)
-*Source: The Skywalker Paradigm*
+*Source: [The Skywalker Paradigm](http://ammonra.org/skywalkerparadigm/a_leiaknew_anh_comp.html)*
 
 Grand Moff Tarkin is a high-ranking Imperial officer with his own ideas about the future of the Empire. 
 He has used the Rebellion as an excuse to create the Death Star, a space station with titanic destructive potential. 
@@ -121,7 +121,7 @@ Supposed telekinesis is driven by technology, not the Force.
 From landspeeders to surveillance droids, the levitation of metal objects is shown to be ubiquitous and reliable in the Star Wars universe. 
 
 ![](/assets/images/tasp/telekinesis.jpg)
-*Source: The Skywalker Paradigm*
+*Source: [The Skywalker Paradigm](http://ammonra.org/skywalkerparadigm/a_leiaknew_anh_comp.html)*
 
 Supposed Jedi premonitions are actually delusions, hallucinations, and lies. 
 Luke also believes that Kenobi feels "a great disturbance in the Force"; in fact, his contact alerted him of Tarkin's actions. 
@@ -130,7 +130,7 @@ Why else would Luke, incredibly gifted in the Force, have felt nothing at all?
 Supposed Force-ghosts are explained by holograms, also a common piece of technology. 
 
 ![](/assets/images/tasp/ghosts.jpg)
-*Source: The Skywalker Paradigm*
+*Source: [The Skywalker Paradigm](http://ammonra.org/skywalkerparadigm/a_leiaknew_anh_comp.html)*
 
 The supposed Jedi ability to predict and block blaster fire with a lightsaber is based in truth, but exaggerated. 
 Lightsabers do absorb blaster fire, but they are limited by the reaction time of their wielders. 
