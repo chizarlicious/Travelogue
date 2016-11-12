@@ -37,6 +37,24 @@ If we're surprised that the charismatic candidate beat the policy-focused candid
 In the modern era, it seems that Democrats are actually more reliant than Republicans on the charisma of their presidential candidates. JFK, Carter, Bill Clinton, and Obama were famously charismatic, and inspired high voter turnout. The same cannot be said of Mondale, Dukakis, Gore, and Kerry. Republican voters, on the other hand, seem almost ambivalent to their nominee: the Republican candidate has earned about the same number of votes in each of the past four elections: 62M in 2004, 60M in 2008, 61M in 2012, and 60M in 2016.
 
 
+| Year | D   | R   | 
+|:----:|:---:|:---:|
+| 2016 | 61M (H Clinton) | 60M (Trump)   |
+| 2012 | 66M (Obama)     | 61M (Romney)  |
+| 2008 | M (Obama)     | M (McCain)  |
+| 2004 | M (Kerry)     | M (Bush Jr) |
+| 2000 | M (Gore)      | M (Bush Jr) |
+| 1996 | M (B Clinton) | M |
+| 1992 | M (B Clinton) | M |
+| 1988 | M (Dukakis)   | M (Bush Sr) |
+| 1984 | M (Mondale)   | M (Reagan)  |
+| 1980 | M (Carter)    | M (Reagan)  |
+| 1976 | M (Carter)    | M |
+
+Table: Caption
+
+
+
 ---
 
 Work in progress...
