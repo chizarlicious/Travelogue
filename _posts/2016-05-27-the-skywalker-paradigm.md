@@ -3,6 +3,7 @@ layout: post
 title: "The (Abridged) Skywalker Paradigm"
 date: 2016-05-27
 thumb: "/assets/images/tasp/thumb.png"
+description: TEST DESCRIPTION
 ---
 
 Some time ago, I stumbled upon The [Skywalker Paradigm](http://ammonra.org/skywalkerparadigm/), a sort of Star Wars conspiracy theory. 
