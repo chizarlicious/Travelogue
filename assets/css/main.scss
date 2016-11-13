@@ -6,9 +6,18 @@
 /*
    Variables
    ========================================================================== */
+
+/*
 $base-font-family:      "Merriweather", serif;
 $base-font-family-sans: "Lato", sans-serif;
 $base-font-family-mono: "Source Code Pro", monospace;
+*/
+
+$base-font-family:      'Noto Serif', serif;
+$base-font-family-sans: 'Noto Sans', sans-serif;
+$base-font-family-mono: "Source Code Pro", monospace;
+
+
 $base-font-size:        16px;
 $small-font-size:       $base-font-size * 0.875;
 $base-line-height:      1;
@@ -92,7 +101,7 @@ $transition-nav:   all 500ms linear;
 
 p { text-align: justify; }
 
-blockquote { background: $light-color; margin: 0; padding: 5px 20px; }
+blockquote { background: $light-color; margin: 0; padding: 5px 20px; border-left: 1px solid $text-color; }
 
 blockquote + p > em { text-align: right; }
 
@@ -104,11 +113,7 @@ thead tr th { border-bottom: 1px solid $text-color; }
 
 th, td { padding: 5px 20px; }
 
-img + em, table + p > em, blockquote + p > em { border-top: 1px solid $text-color; font-size: $small-font-size; background-color: $light-color; padding: 5px 20px; line-height: 1.5; display: block; font-style: normal; }
-
-
-
-
+img + em, table + p > em { border-top: 1px solid $text-color; font-size: $small-font-size; background-color: $light-color; padding: 5px 20px; line-height: 1.5; display: block; font-style: normal; }
 
 
 
