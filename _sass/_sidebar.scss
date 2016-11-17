@@ -50,7 +50,7 @@
 
 .sb-slidebar {
     background: $dark-color;
-    color: $text-color-light;
+//    color: $text-color-light;
     letter-spacing: 1px;
     z-index: 2;
 
@@ -102,7 +102,7 @@
             }
 
             a {
-                color: $text-color-light;
+//                color: $text-color-light;
                 font-family: $base-font-family-sans;
                 display: block;
                 padding: ($spacing-unit / 2) ($spacing-unit / 3);

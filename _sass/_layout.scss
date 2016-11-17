@@ -38,7 +38,7 @@
     padding: ($spacing-unit / 4) 0;
 
     .navigator {
-        color: $grey-color-dark !important;
+//        color: $grey-color-dark !important;
         float: left;
         font-family: $base-font-family-sans;
         font-weight: 700;
@@ -57,10 +57,10 @@
     }
 
     a.navigator {
-        color: $grey-color-light !important;
+//        color: $grey-color-light !important;
 
         &:hover {
-            color: $grey-color !important;
+//            color: $grey-color !important;
         }
     }
 
@@ -75,7 +75,7 @@
 
     .disabled {
         @extend .navigator;
-        color: $grey-color-dark !important;
+//        color: $grey-color-dark !important;
     }
 }
 
@@ -92,7 +92,7 @@
 
     > li {
         border: 10px solid transparent;
-        color: $text-color-light;
+//        color: $text-color-light;
         flex-grow: 1;
         height: 200px;
         overflow: hidden;
@@ -110,7 +110,7 @@
         }
 
         &:hover {
-            border-color: $grey-color-light;
+//            border-color: $grey-color-light;
         }
 
         .post-list-link {
@@ -142,7 +142,7 @@
                 }
 
                 .post-list-meta {
-                    color: darken($grey-color-light, 5%);
+//                    color: darken($grey-color-light, 5%);
                     font-family: $base-font-family-sans;
                     font-size: 11px;
                     font-weight: 700;
@@ -168,7 +168,7 @@
    Archive
    ========================================================================== */
 .post-archive-year {
-    color: $grey-color-dark;
+//    color: $grey-color-dark;
     font-family: $base-font-family-sans;
     font-weight: 700;
     text-align: center;
@@ -193,7 +193,7 @@
 }
 
 .post-reading-time {
-    color: $grey-color-dark;
+//    color: $grey-color-dark;
     font-family: $base-font-family-sans;
     font-size: 16px;
     font-weight: 700;
@@ -331,7 +331,7 @@
 
 .next-post {
     background: lighten($dark-color, 3%);
-    color: $text-color-light;
+//    color: $text-color-light;
     height: 200px;
     position: relative;
 
@@ -373,7 +373,7 @@
         }
 
         .next-story {
-            color: $grey-color-dark;
+//            color: $grey-color-dark;
             font-family: $base-font-family-sans;
             font-size: 13px;
             font-weight: 700;
