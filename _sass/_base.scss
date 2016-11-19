@@ -1,22 +1,15 @@
-/* ==========================================================================
-   BASE
-   ========================================================================== */
 
-/**
- * Reset some basic elements
- */
-body, h1, h2, h3, h4, h5, h6,
-p, blockquote, pre, hr,
-dl, dd, ol, ul, figure {
-    margin: 0;
-    padding: 0;
-}
+// #####################################################################
+// ################################################################ Base
+// #####################################################################
 
+// Reset some basic elements
+body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul,
+figure { margin: 0; padding: 0; }
 
+p { text-align: justify; }
 
-/**
- * Basic styling
- */
+// Basic styling
 body {
     background: $brand-color-2;
     color: $text-color;
@@ -24,27 +17,14 @@ body {
     font-size: $base-font-size;
     font-weight: 400;
     line-height: $base-line-height;
-
     -webkit-text-size-adjust: 100%;
 }
 
+// Set `margin-bottom` to maintain vertical rhythm
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure,
+%vertical-rhythm { margin-bottom: $spacing-unit / 2; }
 
-
-/**
- * Set `margin-bottom` to maintain vertical rhythm
- */
-h1, h2, h3, h4, h5, h6,
-p, blockquote, pre,
-ul, ol, dl, figure,
-%vertical-rhythm {
-    margin-bottom: $spacing-unit / 2;
-}
-
-
-
-/**
- * Images
- */
+// Images
 img {
     display: block;
     height: auto;
@@ -54,121 +34,64 @@ img {
     width: auto;
 }
 
+// Figures
+figure > img { display: block; }
 
+figcaption { font-size: $small-font-size; }
 
-/**
- * Figures
- */
-figure > img {
-    display: block;
-}
+// Lists
+ul, ol { margin-left: $spacing-unit; }
+li { > ul, > ol { margin-bottom: 0; } }
 
-figcaption {
-    font-size: $small-font-size;
-}
+// Headings
+h1, h2, h3, h4, h5, h6 { font-weight: 400; }
 
+// Links
 
-
-/**
- * Lists
- */
-ul, ol {
-    margin-left: $spacing-unit;
-}
-
-li {
-    > ul,
-    > ol {
-         margin-bottom: 0;
-    }
-}
-
-
-
-/**
- * Headings
- */
-h1, h2, h3, h4, h5, h6 {
-    font-weight: 400;
-}
-
-
-
-/**
- * Links
- */
 a {
     color: $brand-color;
     text-decoration: none;
-
 //    @include transition($transition-base);
-
-    &:visited {
-        color: darken($brand-color, 15%);
-    }
-
-    &:hover {
-        color: $grey-color;
-    }
+    &:visited { color: $brand-color; }
+    &:hover { color: $text-color; }
 }
 
-
-
-/**
- * Blockquotes
- */
+// Blockquotes
 blockquote {
-//    background: $grey-color-light;
+    background: $grey-color;
     margin-left: -($spacing-unit / 3);
     margin-right: -($spacing-unit / 3);
     padding: $spacing-unit / 3;
-
-    > :last-child {
-        margin-bottom: 0;
-    }
+    > :last-child { margin-bottom: 0; }
+    border-left: 2px solid $text-color;
 }
 
+// Code formatting
 
-
-/**
- * Code formatting
- */
-pre,
-code {
-    background-color: #eef;
+pre, code {
+//    background-color: #eef;
+    background-color: $grey-color;
     font-family: $base-font-family-mono;
     font-size: 15px;
 }
 
-code {
-    padding: 4px;
-}
+code { padding: 4px; }
 
 pre {
     margin-left: - $spacing-unit;
     margin-right: - $spacing-unit;
     overflow-x: scroll;
     padding: ($spacing-unit / 3) $spacing-unit;
-
-    > code {
-        border: 0;
-        padding-left: 0;
-        padding-right: 0;
-    }
+    > code { border: 0; padding-left: 0; padding-right: 0; }
 }
 
-
-
-/**
- * Wrapper
- */
+// Wrapper
 .wrapper {
     margin-left: auto;
     margin-right: auto;
     max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
     max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
     @extend %clearfix;
-
     @include media-query($on-laptop) {
         max-width:         calc(#{$content-width} - (#{$spacing-unit}));
         max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
@@ -177,35 +100,18 @@ pre {
     }
 }
 
-
-
-/**
- * Clearfix
- */
+// Clearfix
 %clearfix {
-
-    &:after {
-        clear: both;
-        content: "";
-        display: table;
-    }
+    &:after { clear: both; content: ""; display: table; }
 }
 
-
-
-/**
- * Icons
- */
+// Icons
 .icon {
-
     > svg {
         display: inline-block;
         height: 16px;
         vertical-align: middle;
         width: 16px;
-
-        path {
-            fill: $grey-color;
-        }
+        path { fill: $grey-color; }
     }
 }

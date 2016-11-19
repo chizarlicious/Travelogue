@@ -206,7 +206,7 @@ Only after all of this does he cut off Luke's hand.
 Vader knows well enough that the hand can be replaced; he hopes that Luke's pain and shock will snap him out of his hypnosis, and again tries to reason with his son. 
 
 ![](/assets/images/tasp/vader_goal.jpg)
-*Source: Source: [The Skywalker Paradigm Strikes Back](http://ammonra.org/skywalkerparadigm/a_leiaknew_esb_comp.html)*
+*Source: [The Skywalker Paradigm Strikes Back](http://ammonra.org/skywalkerparadigm/a_leiaknew_esb_comp.html)*
 
 Luke, hysterical, flees with Leia. 
 Vader's forces offer only token resistance. 

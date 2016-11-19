@@ -21,19 +21,15 @@ $base-font-size:        16px;
 $small-font-size:       $base-font-size * 0.875;
 $base-line-height:      1;
 
+$text-color:       black;
+$grey-color:       #ab978d;
+$dark-color:       $grey-color;
+$light-color:      #ece2d0;
+$background-color: $light-color;
+$brand-color:      #52489c;
+$brand-color-2:    #3b3561;
 
 
-$background-color: #ffffff; // Background of text region
-$grey-color:       #8fc9af; // Background of tables, etc
-$dark-color:       #00ff00; // Background of slidebar, main page lens, next story background
-
-$brand-color:      #ff0000; // Links, main page dates
-
-$brand-color-2:    #3c896d; // Outer background
-
-$light-color:      #ff00ff; // Slidebar highlighting, main page titles
-
-$text-color:       #000000; // Text
 
 
 
@@ -119,17 +115,6 @@ $transition-nav:   all 500ms linear;
    Sandbox
    ========================================================================== */
 
-p {
-    text-align: justify;
-}
-
-blockquote {
-    background: $grey-color;
-    margin: 0;
-    padding: 5px 20px;
-    border-left: 1px solid $text-color;
-}
-
 blockquote + p > em {
     text-align: right;
 }
@@ -165,50 +150,4 @@ img + em, table + p > em {
     display: block;
     font-style: normal;
 }
-
-body {
-    background: $brand-color-2;
-    color: $text-color;
-}
-
-a {
-    color: $brand-color;
-    text-decoration: none;
-    &:visited { color: $brand-color; }
-    &:hover { color: $text-color; }
-}
-
-.sb-slidebar {
-
-    .site-title {
-        font-size: 22px;
-        letter-spacing: 1px;
-        &:hover { color: $light-color; }
-    }
-
-    a {
-        &:hover { color: $light-color; }
-    }
-
-    .sb-menu {
-        .active {
-            a { background-color: rgba($light-color, .04); }
-        }
-
-        > li {
-            border-top: 1px solid rgba($light-color, .05);
-            &:last-child { border-bottom: 1px solid rgba($light-color, .05); }
-            a {
-                color: $light-color;
-                &:hover { background-color: $light-color; color: $text-color; }
-            }
-        }
-    }
-}
-
-
-pre, code {
-    background-color: $grey-color;
-}
-
 

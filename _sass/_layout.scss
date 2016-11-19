@@ -1,6 +1,7 @@
-/* ==========================================================================
-   LAYOUT
-   ========================================================================== */
+
+// #####################################################################
+// ############################################################## Layout
+// #####################################################################
 
 #sb-site {
     background-color: transparent;
@@ -14,23 +15,19 @@
     margin: 0 auto;
     width: $content-width;
     z-index: 10;
-
     @include media-query($on-palm) {
         background: rgba($background-color, .95);
         width: 100%;
     }
 }
 
-/*
-   Index
-   ========================================================================== */
-.home {
-    padding-top: $spacing-unit;
-}
+// =====================================================================
+// =============================================================== Index
+// =====================================================================
 
-.no_pagination {
-    display: none;
-}
+.home { padding-top: $spacing-unit; }
+
+.no_pagination { display: none; }
 
 .pagination {
     background: $dark-color;
@@ -39,6 +36,7 @@
 
     .navigator {
 //        color: $grey-color-dark !important;
+        color: $grey-color !important;
         float: left;
         font-family: $base-font-family-sans;
         font-weight: 700;
@@ -48,34 +46,20 @@
         text-align: center;
         text-transform: uppercase;
         width: $spacing-unit;
-
         @include border-radius(50%);
-
-        i {
-            font-size: 32px;
-        }
+        i { font-size: 32px; }
     }
-
     a.navigator {
 //        color: $grey-color-light !important;
-
-        &:hover {
-//            color: $grey-color !important;
-        }
+        color: $grey-color !important;
+        &:hover { color: $grey-color !important; }
     }
-
-    .prev {
-        @extend .navigator;
-    }
-
-    .next {
-        @extend .navigator;
-        float: right;
-    }
-
+    .prev { @extend .navigator; }
+    .next { @extend .navigator; float: right; }
     .disabled {
         @extend .navigator;
-//        color: $grey-color-dark !important;
+//        color: $grey-color-light !important;
+        color: $grey-color !important;
     }
 }
 
@@ -87,62 +71,52 @@
     display: flex;
     margin: 0;
     list-style: none;
-
     @include flex-wrap(wrap);
-
     > li {
         border: 10px solid transparent;
 //        color: $text-color-light;
+        color: $light-color;
         flex-grow: 1;
         height: 200px;
         overflow: hidden;
         position: relative;
         width: 46%;
-
-        @include transition($transition-base);
-
+//        @include transition($transition-base);
         // &:first-child {
         //     width: 100%;
         // }
-
-        &:last-child {
-            margin-bottom: $spacing-unit;
-        }
-
-        &:hover {
-//            border-color: $grey-color-light;
-        }
-
+        &:last-child { margin-bottom: $spacing-unit; }
         .post-list-link {
-            background: rgba($dark-color, .5);
+//            background: rgba($text-color, .5);
+            background: none;
             bottom: 0;
             left: 0;
             position: absolute;
             right: 0;
             top: 0;
 
-            &:hover {
-                background: rgba($dark-color, .25);
-            }
+            // Shove the text way off the edge. Make it visible, and crank up the contrast with the background, on hover. 
+
+            padding-top: 1000px; 
+            &:hover { background: rgba($grey-color, 0.8); padding-top: 0px; }
 
             .post-list-info {
                 bottom: $spacing-unit / 4;
                 padding: 0 ($spacing-unit / 4);
                 position: absolute;
-                text-shadow: 1px 1px 10px $dark-color;
+//                text-shadow: 1px 1px 10px $background-color;
                 text-transform: uppercase;
-
                 .post-list-title {
-                    color: $light-color;
+                    color: $text-color;
                     font-size: 22px;
                     font-style: italic;
                     letter-spacing: 4px;
                     line-height: 135%;
                     margin: 0;
                 }
-
                 .post-list-meta {
 //                    color: darken($grey-color-light, 5%);
+                    color: $light-color;
                     font-family: $base-font-family-sans;
                     font-size: 11px;
                     font-weight: 700;
@@ -151,24 +125,30 @@
                 }
             }
         }
-
         .post-list-thumb {
             height: 100%;
             object-fit: cover;
             width: 100%;
         }
     }
+
+//    .post-list-info {
+//        &:hover { 
+//            visibility: hidden;
+//            background: rgba($text-color, .3);
+//        }
+//    }
 }
 
-.rss-subscribe {
-    text-align: center;
-}
+.rss-subscribe { text-align: center; }
 
-/*
-   Archive
-   ========================================================================== */
+// =====================================================================
+// ============================================================= Archive
+// =====================================================================
+
 .post-archive-year {
 //    color: $grey-color-dark;
+    color: $grey-color;
     font-family: $base-font-family-sans;
     font-weight: 700;
     text-align: center;
@@ -179,21 +159,19 @@
     margin: 0;
     margin-bottom: $spacing-unit;
     text-align: center;
-
-    > li a {
-        font-size: 24px;
-    }
+    > li a { font-size: 24px; }
 }
 
-/*
-   Post
-   ========================================================================== */
-.post-header {
-    padding: $spacing-unit 0;
-}
+// =====================================================================
+// ================================================================ Post
+// =====================================================================
+
+
+.post-header { padding: $spacing-unit 0; }
 
 .post-reading-time {
 //    color: $grey-color-dark;
+    color: $grey-color;
     font-family: $base-font-family-sans;
     font-size: 16px;
     font-weight: 700;
@@ -210,7 +188,6 @@
     object-fit: cover;
     position: relative;
     width: 200px;
-
     @include border-radius(50%);
 }
 
@@ -222,7 +199,6 @@
     margin: 0;
     text-transform: uppercase;
     text-align: center;
-
     @include media-query($on-laptop) {
         font-size: 36px;
         letter-spacing: 4px;
@@ -232,32 +208,19 @@
 .post-content {
     margin-bottom: $spacing-unit;
     line-height: 2;
-
     h2 {
         font-size: 32px;
-
-        @include media-query($on-laptop) {
-            font-size: 28px;
-        }
+        @include media-query($on-laptop) { font-size: 28px; }
     }
-
     h3 {
         font-size: 26px;
-
-        @include media-query($on-laptop) {
-            font-size: 22px;
-        }
+        @include media-query($on-laptop) { font-size: 22px; }
     }
-
     h4 {
         font-size: 20px;
-
-        @include media-query($on-laptop) {
-            font-size: 18px;
-        }
+        @include media-query($on-laptop) { font-size: 18px; }
     }
 }
-
 
 .post-meta {
     display: -webkit-box;
@@ -266,20 +229,13 @@
     display: -webkit-flex;
     display: flex;
     line-height: 2;
-
     @include flex-wrap(wrap);
-
     .meta {
         display: inline-block;
         flex-grow: 1;
         padding-bottom: $spacing-unit;
         width: 50%;
-
-        @include media-query($on-laptop) {
-            float: none;
-            width: 100%;
-        }
-
+        @include media-query($on-laptop) { float: none; width: 100%; }
         &:before {
             background: $brand-color;
             content: "";
@@ -288,7 +244,6 @@
             margin-bottom: $spacing-unit / 3;
             width: $spacing-unit / 1.5;
         }
-
         .meta-title {
             color: $text-color;
             font-family: $base-font-family-sans;
@@ -299,27 +254,17 @@
             padding: 0;
             text-transform: uppercase;
         }
-
-        .meta-content {
-            color: $text-color;
-            font-size: 16px;
-        }
+        .meta-content { color: $text-color; font-size: 16px; }
     }
 }
 
 .post-share {
     margin-bottom: $spacing-unit;
-
     .rrssb-buttons li {
         padding: 0 5px 0 0;
-
-        &:last-child {
-            padding-right: 0;
-        }
-
+        &:last-child { padding-right: 0; }
         a {
             font-family: $base-font-family-sans;
-
             @include border-radius(0);
         }
     }
@@ -330,50 +275,39 @@
 }
 
 .next-post {
-    background: lighten($dark-color, 3%);
+//    background: lighten($dark-color, 3%);
+    background: $dark-color;
 //    color: $text-color-light;
+    color: $light-color;
     height: 200px;
     position: relative;
-
     .next-post-link {
         bottom: 0;
         left: 0;
         position: absolute;
         right: 0;
         top: 0;
-
-        &:hover {
-            background: rgba($dark-color, .25);
-        }
+        &:hover { background: rgba($dark-color, .25); }
     }
-
-    @include media-query($on-laptop) {
-        height: auto;
-    }
-
+    @include media-query($on-laptop) { height: auto; }
     .next-post-thumb {
         float: left;
         height: 200px;
         margin-right: 30px;
         object-fit: cover;
         width: 200px;
-
         @include media-query($on-laptop) {
             float: none;
             margin: 0;
             width: 100%;
         }
     }
-
     .next-post-info {
         padding: 30px;
-
-        @include media-query($on-laptop) {
-            padding: 20px;
-        }
-
+        @include media-query($on-laptop) { padding: 20px; }
         .next-story {
 //            color: $grey-color-dark;
+            color: $grey-color;
             font-family: $base-font-family-sans;
             font-size: 13px;
             font-weight: 700;
@@ -381,10 +315,8 @@
             margin: 0;
             padding: 0;
             text-transform: uppercase;
-
-            @include transition($transition-base);
+//            @include transition($transition-base);
         }
-
         .next-post-title {
             font-size: 22px;
             font-style: italic;
@@ -393,9 +325,7 @@
             margin: 0;
             padding-top: 10px;
             text-transform: uppercase;
-
             @include transition($transition-base);
-
             @include media-query($on-laptop) {
                 font-size: 20px;
                 letter-spacing: 2px;

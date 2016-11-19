@@ -11,11 +11,7 @@
     white-space: nowrap;
     width: 54px;
     z-index: 1;
-
-    @include media-query($on-laptop) {
-        position: absolute;
-    }
-
+    @include media-query($on-laptop) { position: absolute; }
     .nav-icon {
         background: $background-color;
         box-shadow: 0 0 8px 0 $dark-color;
@@ -24,9 +20,7 @@
         position: absolute;
         top: 50%;
         width: 28px;
-
         @include transform(translateX(-50%) translateY(-50%));
-
         &:after, &:before {
             background: $background-color;
             box-shadow: inherit;
@@ -37,79 +31,71 @@
             top: 0;
             width: 100%;
         }
-
-        &:before {
-            @include transform(translateY(-8px));
-        }
-
-        &:after {
-            @include transform(translateY(8px));
-        }
+        &:before { @include transform(translateY(-8px)); }
+        &:after { @include transform(translateY(8px)); }
     }
 }
 
 .sb-slidebar {
     background: $dark-color;
 //    color: $text-color-light;
+    color: $text-color;
     letter-spacing: 1px;
     z-index: 2;
-
     .site-title {
-        font-size: 26px;
-        letter-spacing: 2px;
+        font-size: 32px;
+        letter-spacing: 1px;
         margin: 0;
         padding: $spacing-unit ($spacing-unit / 3);
-    }
 
+        // Let's get cute with the title. Have the L be a one, in a different color, and flip the colors on hover. 
+        .title-base { color: $text-color; }
+        .title-accent { color: $brand-color; }
+        &:hover {
+            .title-base { color: $brand-color; }
+            .title-accent { color: $text-color; }
+        }
+
+    }
     .site-info {
         bottom: 0;
         font-family: $base-font-family-sans;
         font-size: 12px;
-        line-height: 2;
+        line-height: 1.5;
         padding: $spacing-unit / 4 0;
         position: absolute;
         text-align: center;
         width: 100%;
-
-        p {
-            margin: 0;
-        }
-
+        p { margin: 0; }
         @include media-query($on-laptop) {
             padding: $spacing-unit / 4;
             width: auto;
         }
     }
-
     .sb-menu {
         list-style-type: none;
         margin: 0;
         padding: 0;
-
         .active {
-            a {
-                background-color: rgba($light-color, .04);
-            }
+//            a { background-color: rgba($light-color, .04); }
+            a { background-color: $light-color; }
         }
-
         > li {
-            border-top: 1px solid rgba($light-color, .05);
+            border-top: 1px solid $light-color;
             margin: 0;
             padding: 0;
-
             &:last-child {
-                border-bottom: 1px solid rgba($light-color, .05);
+                border-bottom: 1px solid $light-color;
             }
-
             a {
 //                color: $text-color-light;
+                color: $brand-color-2;
                 font-family: $base-font-family-sans;
                 display: block;
                 padding: ($spacing-unit / 2) ($spacing-unit / 3);
-
                 &:hover {
                     background-color: $light-color;
-                    color: $text-color;
+//                    color: $text-color;
                     text-decoration: none;
                 }
             }

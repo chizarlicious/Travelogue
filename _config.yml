@@ -1,5 +1,6 @@
 # Site settings
-name: Charles Dot Uno
+name: char1es
+htmlname: <span class="title-base">char</span><span class="title-accent">1</span><span class="title-base">es</span>
 description: ''
 
 baseurl: '' # the subpath of your site, e.g. /blog
